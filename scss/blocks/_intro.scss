@@ -1,0 +1,186 @@
+.section{
+  margin-bottom: 168px;
+}
+
+.section__box{
+  
+  background-image: url(../images/Bitmap.jpg);
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 10px;
+}
+
+
+.section__little__box{
+ 
+  
+  padding: 137px 0px ;
+   padding-left: 87px;
+  
+  
+}
+
+
+
+
+.section__text{
+  font-family: "Fraunces" , "serif";
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin: 0px;
+}
+
+.section__poragraf-case{
+  max-width: 445px;
+}
+.section__poragraf{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+margin: 0px;
+margin-top: 24px;
+color: #FEFCF7
+
+}
+
+
+
+@media only screen and (max-width:900px){
+  .section__box{
+    
+    max-width: 900px;
+     margin: 0 40px;
+    
+    
+    
+    
+  }
+}
+
+
+
+
+@media only screen and (max-width:768px )
+
+
+
+{
+  .section__box{
+    border-radius: 10px;
+    
+    
+    
+    margin: 0 40px;
+    background-image: url(../images/Object.png);
+    
+
+   
+    }
+
+    .section__text{
+      font-size: 32px;
+      line-height: 40px;
+
+    }
+    .section__poragraf{
+      font-size: 15px;
+      line-height: 25px;
+    }
+    
+  }
+
+
+    
+  
+
+
+  @media only screen and (max-width:660px) and ( min-width:591px ){
+    .section__box{
+      background-image: url(../images/Bitmap31.png);
+      background-position: right -50px;
+      
+     
+    }
+
+
+    .section__poragraf{
+      padding-right: 10px;
+    }
+  }
+
+
+
+
+
+
+
+@media only screen and (max-width:590px){
+  .section__box{
+    
+    
+    background-image: url(../../images/Bitmap3.png);
+    
+    
+    
+  }
+
+  .section__little__box{
+    text-align: center;
+     padding: 110px 24px 87px ;
+    
+  }
+
+
+  .section__poragraf-case{
+    padding: 0 40px;
+  }
+
+  
+  }
+
+
+
+ 
+
+ 
+
+
+  
+
+@media only screen and (max-width:400px){
+  
+  
+  .section__box{
+   background-image: url(../images/Bitmap3.png);
+    
+    
+
+    
+  }
+
+  .section__little__box{
+    text-align: center;
+    padding: 117px 24px 87px;
+  }
+
+
+
+
+  .section__poragraf-case{
+    padding: 0px;
+    max-width: 279px;
+  }
+
+
+}
+
+
+
+
+
+
