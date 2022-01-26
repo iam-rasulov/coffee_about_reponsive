@@ -53,6 +53,7 @@
 
 
 @media only screen and (max-width:768px){
+  
 .section-last__list{
   margin: 0px;
 }
@@ -130,5 +131,10 @@
   .section-last__address{
     max-width: 380px;
     width: 100%;
+  }
+  
+  .section-last__item-text--only{
+    margin-right: auto;
+    margin-left: auto;
   }
 }

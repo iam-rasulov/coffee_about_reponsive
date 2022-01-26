@@ -25,13 +25,13 @@
 
 
 
-.footer__item{
+.footer__list{
   display: flex;
   padding: 0px;
 }
 
 
-.footer__list{
+.footer__item{
   list-style: none;
 
 
@@ -102,7 +102,7 @@
 
 }
 
-.footer__item{
+.footer__list{
   justify-content: center;
   text-align: center;
   margin-top: 35px;
@@ -126,12 +126,13 @@
 }
 
 @media only screen and (max-width:425px){
-  .footer__item{
+  .footer__list{
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
  
-  .footer__list{
+  .footer__item{
     max-width: 400px;
     width: 100%;
     text-align: center;
@@ -143,7 +144,7 @@
   }
 
 
-  .footer__list--active{
+  .footer__item--active{
     margin: 24px 0px;
   }
 

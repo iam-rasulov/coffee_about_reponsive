@@ -18,12 +18,12 @@
   
 }
 
-.header__item{
+.header__list{
   display: flex;
 }
 
 
-.header__list{
+.header__item{
   list-style: none;
 
 
@@ -80,7 +80,7 @@
     z-index: 1;
   }
   
-  .header__item{
+  .header__list{
     display: none;
     position: absolute;
     z-index: 2;
@@ -100,7 +100,7 @@
       margin: 0px;
     }
 
-    .header__list:nth-child(2){
+    .header__item:nth-child(2){
       margin: 10px 0;
     }
     
@@ -113,7 +113,7 @@
     margin: 0px;
   }
   
-.header__menu__button:hover+.header__item{
+.header__menu__button:hover + .header__list{
   display: block;
 }
 
