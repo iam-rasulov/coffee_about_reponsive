@@ -128,3 +128,9 @@
  
 }
 
+@media only screen and (max-width:320px){
+  .header__image{
+    max-width: 210px;
+    max-height: 22px;
+  }
+}
